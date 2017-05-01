@@ -16,8 +16,8 @@ describe "Root filesystem" do
     it "has a HYPRIOT_OS= entry" do
       expect(stdout).to contain('^HYPRIOT_OS=')
     end
-    it "has a HYPRIOT_TAG= entry" do
-      expect(stdout).to contain('^HYPRIOT_TAG=')
+    it "has a HYPRIOT_OS_VERSION= entry" do
+      expect(stdout).to contain('^HYPRIOT_OS_VERSION=')
     end
     it "has a HYPRIOT_DEVICE= entry" do
       expect(stdout).to contain('^HYPRIOT_DEVICE=')
